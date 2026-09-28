@@ -1,0 +1,7 @@
+CREATE RECORD:C68([Children:1])
+
+CLEAR VARIABLE:C89(varFirstname)
+CLEAR VARIABLE:C89(varLastname)
+CLEAR VARIABLE:C89(varAvatar)
+
+OBJECT SET ENABLED:C1123(*; "detail_@"; True:C214)
