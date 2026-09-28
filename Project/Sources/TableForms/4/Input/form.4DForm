@@ -47,7 +47,7 @@
 					"width": 100,
 					"height": 12,
 					"dataSource": "vRecNum",
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 9,
 					"focusable": false,
@@ -104,7 +104,7 @@
 					"dataSource": "[SAMPLES:4]SampleSort:4",
 					"dataSourceTypeHint": "integer",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -130,7 +130,7 @@
 					"sizingX": "grow",
 					"dataSource": "[SAMPLES:4]Title:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"multiline": "no",
@@ -159,7 +159,7 @@
 					"sizingY": "grow",
 					"dataSource": "[SAMPLES:4]Text:3",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"allowFontColorPicker": true,
@@ -185,15 +185,16 @@
 					"width": 380,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "SAMPLES"
+					"stroke": "automatic",
+					"text": ":xliff:TableForm_HeadingSamples"
 				},
 				"Line8": {
 					"type": "line",
 					"top": 77,
 					"left": 19,
 					"width": 509,
-					"sizingX": "grow"
+					"sizingX": "grow",
+					"stroke": "automatic"
 				},
 				"bFirst": {
 					"type": "pictureButton",
@@ -335,7 +336,8 @@
 					"width": 86,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:TableForm_LabelID",
+					"stroke": "automatic"
 				},
 				"Text10": {
 					"type": "text",
@@ -344,7 +346,8 @@
 					"width": 86,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Title : "
+					"text": ":xliff:TableForm_LabelTitle",
+					"stroke": "automatic"
 				},
 				"Text11": {
 					"type": "text",
@@ -353,7 +356,8 @@
 					"width": 86,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Text : "
+					"text": ":xliff:TableForm_LabelText",
+					"stroke": "automatic"
 				},
 				"Text12": {
 					"type": "text",
@@ -362,7 +366,8 @@
 					"width": 86,
 					"height": 17,
 					"textAlign": "right",
-					"text": "SampleSort : "
+					"text": ":xliff:TableForm_LabelSampleSort",
+					"stroke": "automatic"
 				}
 			}
 		}

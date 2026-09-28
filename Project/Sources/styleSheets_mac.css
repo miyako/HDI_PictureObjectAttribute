@@ -9,3 +9,41 @@
 	font-weight: bold;
 }
 
+/* macOS Tahoe Liquid Glass vs classic push-button heights.
+   Below 27px, push buttons render with square corners; at/above 27px they
+   get the rounded Liquid Glass treatment. Defined on both the class-only
+   and compound type+class selectors since the compound selector alone is
+   not always matched reliably at runtime. */
+@media (form-theme: liquid-glass) {
+	.default {
+		height: 27px;
+	}
+
+	button.default {
+		height: 27px;
+	}
+}
+
+@media (form-theme: mac-classic) {
+	.default {
+		height: 23px;
+	}
+
+	button.default {
+		height: 23px;
+	}
+}
+
+/* Toolbar-style icon buttons (HDI2 record actions) are already 45px tall,
+   well above the Liquid Glass rounding threshold, so they render the same
+   rounded variant under both themes. Height is set explicitly via CSS
+   (rather than left hardcoded in form.4DForm) purely so it stays
+   theme-driven and consistent should the icon size ever need to change. */
+.toolbar {
+	height: 45px;
+}
+
+button.toolbar {
+	height: 45px;
+}
+

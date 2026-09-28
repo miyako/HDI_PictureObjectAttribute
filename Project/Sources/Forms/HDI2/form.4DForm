@@ -85,7 +85,8 @@
 					"sizingX": "move",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Firstname:"
+					"text": ":xliff:HDI2_LabelFirstname",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -96,7 +97,8 @@
 					"sizingX": "move",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Lastname:"
+					"text": ":xliff:HDI2_LabelLastname",
+					"stroke": "automatic"
 				},
 				"Text2": {
 					"type": "text",
@@ -107,7 +109,8 @@
 					"sizingX": "move",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Avatar:"
+					"text": ":xliff:HDI2_LabelAvatar",
+					"stroke": "automatic"
 				},
 				"detail_Firstname": {
 					"type": "input",
@@ -142,9 +145,8 @@
 					"top": 429,
 					"left": 540,
 					"width": 45,
-					"height": 45,
 					"sizingX": "move",
-					"tooltip": "New record",
+					"tooltip": ":xliff:HDI2_TooltipNewRecord",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Buttons/action_add.png",
 					"iconFrames": 4,
@@ -152,7 +154,8 @@
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "toolbar"
 				},
 				"ListBox": {
 					"type": "listbox",
@@ -188,7 +191,6 @@
 							"maxWidth": 32000,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -197,7 +199,7 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "ID",
+								"text": ":xliff:HDI2_ColumnID",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -207,8 +209,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -218,7 +222,6 @@
 							"maxWidth": 32000,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -227,7 +230,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Firstname",
+								"text": ":xliff:HDI2_ColumnFirstname",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -237,8 +240,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column3",
@@ -248,7 +253,6 @@
 							"maxWidth": 32000,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -257,7 +261,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Lastname",
+								"text": ":xliff:HDI2_ColumnLastname",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -267,19 +271,21 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"alternateFill": "automaticAlternate"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 429,
 					"left": 629,
 					"width": 45,
-					"height": 45,
 					"sizingX": "move",
-					"tooltip": "Save record",
+					"tooltip": ":xliff:HDI2_TooltipSaveRecord",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Buttons/action_validate.png",
 					"iconFrames": 4,
@@ -287,16 +293,16 @@
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "toolbar"
 				},
 				"detail_ChooseAvatar": {
 					"type": "button",
 					"top": 210,
 					"left": 629,
 					"width": 45,
-					"height": 45,
 					"sizingX": "move",
-					"tooltip": "Open avatar folder",
+					"tooltip": ":xliff:HDI2_TooltipChooseAvatar",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Buttons/image_insert.png",
 					"iconFrames": 4,
@@ -304,7 +310,8 @@
 					"method": "ObjectMethods/detail_ChooseAvatar.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "toolbar"
 				},
 				"detail_Avatar": {
 					"type": "input",
@@ -316,7 +323,7 @@
 					"dataSource": "varAvatar",
 					"dataSourceTypeHint": "picture",
 					"focusable": false,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"enterable": false,
 					"contextMenu": "none",
 					"pictureFormat": "truncatedCenter",
@@ -331,9 +338,8 @@
 					"top": 429,
 					"left": 584,
 					"width": 45,
-					"height": 45,
 					"sizingX": "move",
-					"tooltip": "Delete record",
+					"tooltip": ":xliff:HDI2_TooltipDeleteRecord",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Buttons/action_remove.png",
 					"iconFrames": 4,
@@ -341,7 +347,8 @@
 					"method": "ObjectMethods/Button7.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "toolbar"
 				}
 			}
 		}

@@ -58,7 +58,8 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:TableForm_LabelID",
+					"stroke": "automatic"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -67,7 +68,8 @@
 					"width": 400,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Obj : "
+					"text": ":xliff:TableForm_LabelObj",
+					"stroke": "automatic"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -76,7 +78,8 @@
 					"width": 536,
 					"height": 25,
 					"sizingX": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -115,7 +118,7 @@
 					"sizingX": "grow",
 					"dataSource": "[Children:1]Obj:2",
 					"dataSourceTypeHint": "object",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -137,7 +140,7 @@
 					"top": -5,
 					"left": 0,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line6": {
 					"type": "line",
@@ -145,14 +148,14 @@
 					"left": 536,
 					"height": 49,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line7": {
 					"type": "line",
 					"top": -5,
 					"left": 104,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter2": {
 					"type": "splitter",

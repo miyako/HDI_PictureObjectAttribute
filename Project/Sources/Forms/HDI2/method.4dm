@@ -2,9 +2,9 @@ Case of
 	: (Form event code:C388=On Load:K2:1)
 		initHDI
 		
-		C_TEXT:C284(varFirstname)
-		C_TEXT:C284(varLastname)
-		C_PICTURE:C286(varAvatar)
+		var varFirstname : Text
+		var varLastname : Text
+		var varAvatar : Picture
 		
 		varFirstname:=""
 		varLastname:=""

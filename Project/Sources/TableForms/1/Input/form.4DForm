@@ -47,7 +47,7 @@
 					"width": 100,
 					"height": 12,
 					"dataSource": "vRecNum",
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 9,
 					"focusable": false,
@@ -74,15 +74,16 @@
 					"width": 380,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "Table_1"
+					"stroke": "automatic",
+					"text": ":xliff:TableForm_HeadingTable1"
 				},
 				"Line6": {
 					"type": "line",
 					"top": 77,
 					"left": 19,
 					"width": 509,
-					"sizingX": "grow"
+					"sizingX": "grow",
+					"stroke": "automatic"
 				},
 				"bFirst": {
 					"type": "pictureButton",
@@ -224,7 +225,8 @@
 					"width": 36,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:TableForm_LabelID",
+					"stroke": "automatic"
 				},
 				"Text8": {
 					"type": "text",
@@ -233,7 +235,8 @@
 					"width": 36,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Obj : "
+					"text": ":xliff:TableForm_LabelObj",
+					"stroke": "automatic"
 				},
 				"ID": {
 					"type": "input",
@@ -274,7 +277,7 @@
 					"dataSource": "[Children:1]Obj:2",
 					"dataSourceTypeHint": "object",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"multiline": "yes",

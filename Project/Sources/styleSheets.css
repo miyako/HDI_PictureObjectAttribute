@@ -1,0 +1,17 @@
+/* Cross-platform dark mode support.
+   Most form objects use "automatic"/"automaticAlternate" color values directly
+   in form.4DForm and therefore need no rules here. This file only carries
+   colours that are branded/semantic (not simply "adapt to the theme") and
+   must still change between light and dark. */
+
+@media (prefers-color-scheme: light) {
+	.hdi-warning {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-warning {
+		stroke: #FF8A5C;
+	}
+}
