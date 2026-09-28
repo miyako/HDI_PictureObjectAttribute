@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/Forms/HDI2/ObjectMethods/detail_ChooseAvatar.4dm" source-language="en" target-language="ja">
+		<body>
+		<trans-unit id="HDI2_SelectImage" resname="HDI2_SelectImage">
+			<source>Select an image</source>
+			<target>画像を選択</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

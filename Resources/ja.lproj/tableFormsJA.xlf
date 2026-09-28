@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/TableForms" source-language="en" target-language="ja">
+		<body>
+		<trans-unit id="TableForm_HeadingTable1" resname="TableForm_HeadingTable1">
+			<source>Table_1</source>
+			<target>Table_1</target>
+		</trans-unit>
+		<trans-unit id="TableForm_HeadingSamples" resname="TableForm_HeadingSamples">
+			<source>SAMPLES</source>
+			<target>SAMPLES</target>
+		</trans-unit>
+		<trans-unit id="TableForm_LabelID" resname="TableForm_LabelID">
+			<source>ID : </source>
+			<target>ID : </target>
+		</trans-unit>
+		<trans-unit id="TableForm_LabelObj" resname="TableForm_LabelObj">
+			<source>Obj : </source>
+			<target>Obj : </target>
+		</trans-unit>
+		<trans-unit id="TableForm_LabelTitle" resname="TableForm_LabelTitle">
+			<source>Title : </source>
+			<target>タイトル : </target>
+		</trans-unit>
+		<trans-unit id="TableForm_LabelText" resname="TableForm_LabelText">
+			<source>Text : </source>
+			<target>テキスト : </target>
+		</trans-unit>
+		<trans-unit id="TableForm_LabelSampleSort" resname="TableForm_LabelSampleSort">
+			<source>SampleSort : </source>
+			<target>サンプルソート : </target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

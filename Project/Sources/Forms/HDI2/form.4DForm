@@ -1,0 +1,356 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 670,
+	"windowMinHeight": 500,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"TabControl": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 670,
+					"height": 470,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"Var": {
+					"type": "input",
+					"top": 60,
+					"left": 40,
+					"width": 630,
+					"height": 390,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Var",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		null,
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 158,
+					"left": 320,
+					"width": 100,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI2_LabelFirstname",
+					"stroke": "automatic"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 187,
+					"left": 320,
+					"width": 100,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI2_LabelLastname",
+					"stroke": "automatic"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 216,
+					"left": 320,
+					"width": 100,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI2_LabelAvatar",
+					"stroke": "automatic"
+				},
+				"detail_Firstname": {
+					"type": "input",
+					"top": 158,
+					"left": 425,
+					"width": 244,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "varFirstname",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"detail_Lastname": {
+					"type": "input",
+					"top": 187,
+					"left": 425,
+					"width": 244,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "varLastname",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 429,
+					"left": 540,
+					"width": 45,
+					"sizingX": "move",
+					"tooltip": ":xliff:HDI2_TooltipNewRecord",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Buttons/action_add.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar"
+				},
+				"ListBox": {
+					"type": "listbox",
+					"top": 158,
+					"left": 40,
+					"width": 264,
+					"height": 310,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"focusable": false,
+					"movableRows": false,
+					"headerHeight": "2em",
+					"table": 1,
+					"highlightSet": "$ListboxSet",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "automatic",
+					"method": "ObjectMethods/ListBox.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "[Children:1]ID:1",
+							"dataSourceTypeHint": "integer",
+							"width": 30,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": ":xliff:HDI2_ColumnID",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
+						},
+						{
+							"name": "Column2",
+							"dataSource": "OB Get:C1224([Children:1]Obj:2; \"firstname\")",
+							"width": 100,
+							"minWidth": 80,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": ":xliff:HDI2_ColumnFirstname",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
+						},
+						{
+							"name": "Column3",
+							"dataSource": "OB Get:C1224([Children:1]Obj:2; \"lastname\")",
+							"width": 119,
+							"minWidth": 80,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": ":xliff:HDI2_ColumnLastname",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
+						}
+					],
+					"alternateFill": "automaticAlternate"
+				},
+				"Button3": {
+					"type": "button",
+					"top": 429,
+					"left": 629,
+					"width": 45,
+					"sizingX": "move",
+					"tooltip": ":xliff:HDI2_TooltipSaveRecord",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Buttons/action_validate.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar"
+				},
+				"detail_ChooseAvatar": {
+					"type": "button",
+					"top": 210,
+					"left": 629,
+					"width": 45,
+					"sizingX": "move",
+					"tooltip": ":xliff:HDI2_TooltipChooseAvatar",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Buttons/image_insert.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/detail_ChooseAvatar.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar"
+				},
+				"detail_Avatar": {
+					"type": "input",
+					"top": 216,
+					"left": 425,
+					"width": 200,
+					"height": 200,
+					"sizingX": "move",
+					"dataSource": "varAvatar",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "automatic",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "truncatedCenter",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 429,
+					"left": 584,
+					"width": 45,
+					"sizingX": "move",
+					"tooltip": ":xliff:HDI2_TooltipDeleteRecord",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Buttons/action_remove.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/tips.json" source-language="en" target-language="ja">
+		<body>
+		<trans-unit id="Tip_FirstRecord" resname="Tip_FirstRecord">
+			<source>First Record</source>
+			<target>最初のレコード</target>
+		</trans-unit>
+		<trans-unit id="Tip_PreviousRecord" resname="Tip_PreviousRecord">
+			<source>Previous Record</source>
+			<target>前のレコード</target>
+		</trans-unit>
+		<trans-unit id="Tip_NextRecord" resname="Tip_NextRecord">
+			<source>Next Record</source>
+			<target>次のレコード</target>
+		</trans-unit>
+		<trans-unit id="Tip_LastRecord" resname="Tip_LastRecord">
+			<source>Last Record</source>
+			<target>最後のレコード</target>
+		</trans-unit>
+		<trans-unit id="Tip_DeleteRecord" resname="Tip_DeleteRecord">
+			<source>Delete Record</source>
+			<target>レコードを削除</target>
+		</trans-unit>
+		<trans-unit id="Tip_Cancel" resname="Tip_Cancel">
+			<source>Cancel</source>
+			<target>キャンセル</target>
+		</trans-unit>
+		<trans-unit id="Tip_OK" resname="Tip_OK">
+			<source>Accept</source>
+			<target>承認</target>
+		</trans-unit>
+		<trans-unit id="Tip_RecordNumber" resname="Tip_RecordNumber">
+			<source>Record Position within Selection</source>
+			<target>選択内でのレコード位置</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

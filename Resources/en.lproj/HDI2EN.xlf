@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+		<body>
+		<trans-unit id="HDI2_LabelFirstname" resname="HDI2_LabelFirstname">
+			<source>Firstname:</source>
+			<target>Firstname:</target>
+		</trans-unit>
+		<trans-unit id="HDI2_LabelLastname" resname="HDI2_LabelLastname">
+			<source>Lastname:</source>
+			<target>Lastname:</target>
+		</trans-unit>
+		<trans-unit id="HDI2_LabelAvatar" resname="HDI2_LabelAvatar">
+			<source>Avatar:</source>
+			<target>Avatar:</target>
+		</trans-unit>
+		<trans-unit id="HDI2_TooltipNewRecord" resname="HDI2_TooltipNewRecord">
+			<source>New record</source>
+			<target>New record</target>
+		</trans-unit>
+		<trans-unit id="HDI2_TooltipSaveRecord" resname="HDI2_TooltipSaveRecord">
+			<source>Save record</source>
+			<target>Save record</target>
+		</trans-unit>
+		<trans-unit id="HDI2_TooltipDeleteRecord" resname="HDI2_TooltipDeleteRecord">
+			<source>Delete record</source>
+			<target>Delete record</target>
+		</trans-unit>
+		<trans-unit id="HDI2_TooltipChooseAvatar" resname="HDI2_TooltipChooseAvatar">
+			<source>Open avatar folder</source>
+			<target>Open avatar folder</target>
+		</trans-unit>
+		<trans-unit id="HDI2_ColumnID" resname="HDI2_ColumnID">
+			<source>ID</source>
+			<target>ID</target>
+		</trans-unit>
+		<trans-unit id="HDI2_ColumnFirstname" resname="HDI2_ColumnFirstname">
+			<source>Firstname</source>
+			<target>Firstname</target>
+		</trans-unit>
+		<trans-unit id="HDI2_ColumnLastname" resname="HDI2_ColumnLastname">
+			<source>Lastname</source>
+			<target>Lastname</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

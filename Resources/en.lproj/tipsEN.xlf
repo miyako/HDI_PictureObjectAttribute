@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/tips.json" source-language="en" target-language="en">
+		<body>
+		<trans-unit id="Tip_FirstRecord" resname="Tip_FirstRecord">
+			<source>First Record</source>
+			<target>First Record</target>
+		</trans-unit>
+		<trans-unit id="Tip_PreviousRecord" resname="Tip_PreviousRecord">
+			<source>Previous Record</source>
+			<target>Previous Record</target>
+		</trans-unit>
+		<trans-unit id="Tip_NextRecord" resname="Tip_NextRecord">
+			<source>Next Record</source>
+			<target>Next Record</target>
+		</trans-unit>
+		<trans-unit id="Tip_LastRecord" resname="Tip_LastRecord">
+			<source>Last Record</source>
+			<target>Last Record</target>
+		</trans-unit>
+		<trans-unit id="Tip_DeleteRecord" resname="Tip_DeleteRecord">
+			<source>Delete Record</source>
+			<target>Delete Record</target>
+		</trans-unit>
+		<trans-unit id="Tip_Cancel" resname="Tip_Cancel">
+			<source>Cancel</source>
+			<target>Cancel</target>
+		</trans-unit>
+		<trans-unit id="Tip_OK" resname="Tip_OK">
+			<source>Accept</source>
+			<target>Accept</target>
+		</trans-unit>
+		<trans-unit id="Tip_RecordNumber" resname="Tip_RecordNumber">
+			<source>Record Position within Selection</source>
+			<target>Record Position within Selection</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>
